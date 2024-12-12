@@ -1,1 +1,1 @@
-# Rust-Leetcode-exercises
+# Leetcode exercises with Rust
