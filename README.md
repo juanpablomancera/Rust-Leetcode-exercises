@@ -1,5 +1,28 @@
 # Leetcode exercises with Rust
 
+## Table of Contents
+- [Add Binary](#add-binary)
+    - [Approach](#approach)
+        - [1. Input Preparation](#1-input-preparation)
+        - [2. Equalizing Lengths](#2-equalizing-lengths)
+        - [3. Bit-by-Bit Addition](#3-bit-by-bit-addition)
+        - [4. Handle Final Carry](#4-handle-final-carry)
+        - [5. Output the Result](#5-output-the-result)
+    - [Key Points](#key-points)
+        - [Binary Addition Logic](#binary-addition-logic)
+        - [Reverse Processing](#reverse-processing)
+        - [Efficiency](#efficiency)
+- [Climbing Stairs](#climbing-stairs)
+    - [Approach](#approach-1)
+        - [1. Base Cases](#1-base-cases)
+        - [2. Dynamic Programming (DP) Optimization](#2-dynamic-programming-dp-optimization)
+        - [3. Output the Result](#3-output-the-result)
+    - [Key Points](#key-points-1)
+        - [Relation to Fibonacci Sequence](#relation-to-fibonacci-sequence)
+        - [Efficiency](#efficiency-1)
+
+---
+
 ## [Add Binary](https://leetcode.com/problems/add-binary/description/)
 - Given two binary strings _a_ and _b_, return their sum as a binary string.
 
@@ -51,7 +74,7 @@ The solution processes each bit once, resulting in a time complexity of \(O(\max
 ---
 
 ## [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
-- You are climbing a staircase. It takes _n_ steps to reach the top. 
+- You are climbing a staircase. It takes _n_ steps to reach the top.
 - Each time you can either climb _1_ or _2_ steps. In how many distinct ways can you climb to the top?
 
 ### Approach
